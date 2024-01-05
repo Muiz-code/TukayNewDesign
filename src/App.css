@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.logo {
+  background: #113a2f;
+  background-repeat: no-repeat;
+  background-image: url(../src/assets/Group1122.png);
+  background-position: right;
+  background-size: 35%;
+}
+.logo1 {
+  background-repeat: no-repeat;
+  background-image: url(../src/assets/Group1129.png);
+  background-position: bottom;
+  background-size: contain;
+}
+.logo2 {
+  background-repeat: no-repeat;
+  background-image: url(../src/assets/Group1130.png);
+  background-size: 40%;
+}
+.form {
+  background: #113a2f;
+  padding: 5px 0px 10px 5px;
+  width: 70%;
+  border-radius: 10px;
+  color: #b8ddd4;
+}
+.form input {
+  background: none;
+  outline: none;
+}
+.form input::placeholder {
+  color: rgba(255, 255, 255, 0.241);
+}
+

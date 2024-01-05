@@ -1,0 +1,61 @@
+import MyForm from "../Components/MyForm";
+import Preloader from "../Components/Preloader";
+import { Link } from "react-router-dom";
+
+const SignUp = () => {
+  return (
+    <div className=" font-spaceGrotesk">
+      <div>
+        <Preloader />
+      </div>
+      <div className="logo w-full flex h-screen justify-center place-items-center ">
+        <div className="logo1 w-full flex h-screen justify-center place-items-center">
+          <div className="logo2 w-full flex flex-col gap-4 h-screen justify-center place-items-center">
+            <div className="flex flex-col gap-[60px] justify-center place-items-center bg-[#0A221C] px-[150px] py-[50px] rounded-2xl">
+              <div className="flex flex-col justify-center place-items-center">
+                <h1 className="text-5xl text-[#4BF0A5]">Welcome to TUKAY</h1>
+                <p className="text-[white]">
+                  Complete your sign up to get started
+                </p>
+              </div>
+              <div className="flex flex-col w-[100%] gap-5">
+                <div className="flex flex-col gap-5 justify-center place-items-center">
+                  <MyForm label="Name" type="text" placeholder="Full Name" />
+                  <MyForm
+                    label="Email"
+                    type="email"
+                    placeholder="example@mail.com"
+                  />
+                  <MyForm
+                    label="Password"
+                    type="Password"
+                    placeholder="Letters@1"
+                  />
+                </div>
+                <div className="flex flex-col justify-start place-items-center gap-4">
+                  <div className="flex w-[60%] gap-3">
+                    <input type="checkbox" className="border bg-" />
+                    <p className="text-[white]">
+                      By signing up, you agree to the{" "}
+                      <span className="text-[#4BF0A5]">
+                        {" "}
+                        Terms of Service and Privacy Policy
+                      </span>
+                    </p>
+                  </div>
+                  <Link to="/signin">
+                    <div className="bg-[#4BF0A5] hover:bg-[#4bf0a6ae] hover:scale-[1.02] py-3 px-5 rounded-lg">
+                      <button>Sign Up</button>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default SignUp;
