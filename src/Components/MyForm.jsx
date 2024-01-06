@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const MyForm = ({ label, type, placeholder }) => {
   return (
     <div className="flex form flex-col gap-1">
-      <label htmlFor="Name">{label}</label>
+      <label htmlFor="name">{label}</label>
       <input type={type} placeholder={placeholder} />
     </div>
   );

@@ -6,19 +6,17 @@ import logo1 from "../assets/TukayT.png";
 import { Outlet } from "react-router-dom";
 
 const SideBar = () => {
+  // eslint-disable-next-line no-unused-vars
   let eachPage;
   pages.forEach((item) => {
     eachPage = item;
   });
-
-  console.log(eachPage);
 
   const [sideBarIsOpen, setSideBarIsOpen] = useState(true);
   console.log(sideBarIsOpen);
   const toogleSideBar = () => {
     setSideBarIsOpen(!sideBarIsOpen);
   };
-  console.log(sideBarIsOpen);
 
   return (
     <div className="flex fixed-top font-spaceGrotesk">

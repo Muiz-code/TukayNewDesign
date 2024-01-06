@@ -23,7 +23,7 @@
 .logo2 {
   background-repeat: no-repeat;
   background-image: url(../src/assets/Group1130.png);
-  background-size: 40%;
+  background-size: 65%;
 }
 .form {
   background: #113a2f;
@@ -39,4 +39,3 @@
 .form input::placeholder {
   color: rgba(255, 255, 255, 0.241);
 }
-

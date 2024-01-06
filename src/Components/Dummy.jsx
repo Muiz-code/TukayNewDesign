@@ -2,6 +2,10 @@ import Home from "../assets/Home.svg";
 import Insight from "../assets/Chart.svg";
 import Notification from "../assets/Bell.svg";
 import Profile from "../assets/Profile.svg";
+import send from "../assets/AtmCard.svg";
+import find from "../assets/Find2k.svg";
+import save from "../assets/Padlock.svg";
+import request from "../assets/Request.svg";
 
 export const pages = [
   {
@@ -36,5 +40,28 @@ export const pages = [
     pageLink: "/profile",
     style:
       "hover:text-[#4BF0A5] rounded-lg hover:scale-[1.02]  flex items-center",
+  },
+];
+
+export const buttons = [
+  {
+    id: 1,
+    icons: send,
+    text: "Send",
+  },
+  {
+    id: 2,
+    icons: save,
+    text: "Save",
+  },
+  {
+    id: 3,
+    icons: find,
+    text: "Find",
+  },
+  {
+    id: 4,
+    icons: request,
+    text: "Request",
   },
 ];
