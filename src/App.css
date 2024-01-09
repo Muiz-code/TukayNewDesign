@@ -7,6 +7,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #113a2f;
+}
 .logo {
   background: #113a2f;
   background-repeat: no-repeat;
@@ -38,4 +41,12 @@
 }
 .form input::placeholder {
   color: rgba(255, 255, 255, 0.241);
+}
+
+.sideBar {
+  background-color: #113a2f;
+  background: url(./assets/tribe.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }

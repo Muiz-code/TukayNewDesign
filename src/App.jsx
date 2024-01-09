@@ -29,7 +29,7 @@ const App = () => {
     )
   );
   return (
-    <div>
+    <div className="bg-[#113a2f]">
       <RouterProvider router={router} />
     </div>
   );

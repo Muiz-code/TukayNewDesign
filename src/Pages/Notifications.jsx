@@ -1,7 +1,198 @@
+import Card from "../Components/Card";
+import bell from "../assets/Bell.svg";
+
 const Notifications = () => {
   return (
-    <div className="flex place-items-center justify-center w-full h-screen">
-      <h1 className="text-9xl text-center">Notifications in construction......</h1>
+    <div className="flex justify-center h-screen pt-10">
+      <div className="flex flex-col pt-[50px] place-items-center gap-10 h-[90vh] text-white px-[50px] w-[100%] overflow-auto">
+        <div className="flex flex-col w-[80%] bg-[#0A221C] lh-1 rounded-2xl p-4">
+          <div>
+            <h1>Today</h1>
+            <Card
+              text1="hdbsjhdfgdgfvdksgv"
+              icon1={bell}
+              style2="w-[10%]"
+              text2="9:20am"
+              style1="flex place-items-center"
+              style4="text-[#64857D] text-sm"
+              style4="text-[#64857D] text-sm"
+            />
+            <Card
+              text1="hdbsjhdfgdgfvdksgv"
+              icon1={bell}
+              style2="w-[10%]"
+              text2="9:20am"
+              style1="flex place-items-center"
+              style4="text-[#64857D] text-sm"
+            />
+            <Card
+              text1="hdbsjhdfgdgfvdksgv"
+              icon1={bell}
+              style2="w-[10%]"
+              text2="9:20am"
+              style1="flex place-items-center"
+              style4="text-[#64857D] text-sm"
+            />
+            <Card
+              text1="hdbsjhdfgdgfvdksgv"
+              icon1={bell}
+              style2="w-[10%]"
+              text2="9:20am"
+              style1="flex place-items-center"
+              style4="text-[#64857D] text-sm"
+            />
+          </div>
+        </div>
+        <div className="flex flex-col w-[80%] bg-[#0A221C] rounded-2xl p-4">
+          <h1>Yesterday</h1>
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+
+          <h1>Wednesday</h1>
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+          <Card
+            text1="hdbsjhdfgdgfvdksgv"
+            icon1={bell}
+            style2="w-[10%]"
+            text2="9:20am"
+            style1="flex place-items-center"
+            style4="text-[#64857D] text-sm"
+          />
+        </div>
+      </div>
     </div>
   );
 };

@@ -51,17 +51,17 @@ export const buttons = [
   },
   {
     id: 2,
+    icons: request,
+    text: "Receive",
+  },
+  {
+    id: 3,
     icons: save,
     text: "Save",
   },
   {
-    id: 3,
-    icons: find,
-    text: "Find",
-  },
-  {
     id: 4,
-    icons: request,
+    icons: find,
     text: "Request",
   },
 ];
