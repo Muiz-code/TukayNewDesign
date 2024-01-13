@@ -6,6 +6,7 @@ import send from "../assets/AtmCard.svg";
 import find from "../assets/Find2k.svg";
 import save from "../assets/Padlock.svg";
 import request from "../assets/Request.svg";
+import chat from "../assets/Chat.svg";
 
 export const pages = [
   {
@@ -38,6 +39,14 @@ export const pages = [
     icon: Profile,
     pages: "Profile",
     pageLink: "/profile",
+    style:
+      "hover:text-[#4BF0A5] rounded-lg hover:scale-[1.02]  flex items-center",
+  },
+  {
+    id: 5,
+    icon: chat,
+    pages: "Chat",
+    pageLink: "/chat",
     style:
       "hover:text-[#4BF0A5] rounded-lg hover:scale-[1.02]  flex items-center",
   },

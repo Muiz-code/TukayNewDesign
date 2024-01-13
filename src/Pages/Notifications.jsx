@@ -15,7 +15,6 @@ const Notifications = () => {
               text2="9:20am"
               style1="flex place-items-center"
               style4="text-[#64857D] text-sm"
-              style4="text-[#64857D] text-sm"
             />
             <Card
               text1="hdbsjhdfgdgfvdksgv"

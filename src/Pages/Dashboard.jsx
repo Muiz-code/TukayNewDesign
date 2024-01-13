@@ -107,12 +107,36 @@ const Dashboard = () => {
                 style3="hover:scale-[1.05] w-[40%] justify-between flex"
               />
             </div>
-            <div className="flex flex-col absolute right-5 top-3 bg-white rounded-2xl text-black p-5 h-[33vh] w-[40%] justify-start overflow-auto">
-              <h1 className="underline">SEND</h1>
-              <p>
-                Sending is made easy on TUKAY, with just one click and
-                authentication you are good to go.
-              </p>
+            <div className="flex flex-col absolute right-5 top-3 bg-white rounded-2xl text-black p-5 h-[33vh] w-[40%] justify-start overflow-auto gap-5">
+              <div>
+                <h1 className="underline">SEND</h1>
+                <p>
+                  Sending is made easy on TUKAY, with just one click and
+                  authentication you are good to go.
+                </p>
+              </div>
+              <div>
+                <h1 className="underline">Receieve</h1>
+                <p>
+                  Sending is made easy on TUKAY, with just one click and
+                  authentication you are good to go.
+                </p>
+              </div>
+              <div>
+                <h1 className="underline">Save</h1>
+
+                <p>
+                  Sending is made easy on TUKAY, with just one click and
+                  authentication you are good to go.
+                </p>
+              </div>
+              <div>
+                <h1 className="underline">Find</h1>
+                <p>
+                  Sending is made easy on TUKAY, with just one click and
+                  authentication you are good to go.
+                </p>
+              </div>
             </div>
           </div>
         </div>

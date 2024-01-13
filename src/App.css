@@ -50,3 +50,18 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
 }
+.navbarr .active {
+  color: #4bf0a5;
+}
+.navbarr2 .active {
+  background: #4bf0a5;
+  color: black;
+}
+.gray {
+  background: #4bf0a67e;
+  color: #676767;
+}
+.introText {
+  display: flex;
+  line-height: 40px;
+}

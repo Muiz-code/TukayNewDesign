@@ -54,7 +54,7 @@ const SideBar = () => {
               <img src={logo1} className="w-[50%]" alt="" />
             </div>
           </div>
-          <ul className={`py-5 px-3 flex flex-col gap-[50px]`}>
+          <ul className={`py-5 px-3 flex navbarr flex-col gap-[50px]`}>
             {pages.map((nav) => (
               <Page
                 key={nav.id}

@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+/* eslint-disable react/prop-types */
+import { NavLink } from "react-router-dom";
 
 const Page = ({
   pageClick,
@@ -10,7 +11,7 @@ const Page = ({
   style,
 }) => {
   return (
-    <Link to={pageLink} className="text-decoration-none text-light">
+    <NavLink to={pageLink} className="text-decoration-none text-light">
       <li
         className={`${eachStyle}  flex place-items-center justify-start  font-spaceGrotesk cursor-pointer px-3 w-[80%]`}
         onClick={pageClick}
@@ -30,7 +31,7 @@ const Page = ({
           </p>
         </div>
       </li>
-    </Link>
+    </NavLink>
   );
 };
 
