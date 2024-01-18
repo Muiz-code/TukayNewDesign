@@ -3,8 +3,8 @@ import bell from "../assets/Bell.svg";
 
 const Notifications = () => {
   return (
-    <div className="flex justify-center h-screen pt-10">
-      <div className="flex flex-col pt-[50px] place-items-center gap-10 h-[90vh] text-white px-[50px] w-[100%] overflow-auto">
+    <div className="flex justify-center h-screen">
+      <div className="flex flex-col pt-[50px] place-items-center gap-10 h-[10s0vh] text-white px-[50px] w-[100%] overflow-auto">
         <div className="flex flex-col w-[80%] bg-[#0A221C] lh-1 rounded-2xl p-4">
           <div>
             <h1>Today</h1>

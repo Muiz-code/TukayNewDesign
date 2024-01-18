@@ -140,8 +140,8 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-        <div className="col flex flex-col w-[50%] p-3 gap-5">
-          <div className="flex flex-col col justify-between gap-5 bg-[#0A221C] w-[100%] h-[76vh] p-5 rounded-2xl">
+        <div className="col flex flex-col w-[50%] gap-5">
+          <div className="flex flex-col col justify-between gap-5 bg-[#0A221C] w-[100%] h-[76vh] pt-5 ps-5 pe-2 rounded-2xl">
             <h1 className="text-2xl">Recent Transactions</h1>
             <div className="overflow-auto">
               <div className="flex w-[100%]">
