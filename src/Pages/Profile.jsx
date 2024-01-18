@@ -17,7 +17,6 @@ import BVNCard from "../Components/BVNCard";
 import Badge from "@mui/material/Badge";
 import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
-import img from "../assets/Ellipse 818.png";
 
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />

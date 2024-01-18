@@ -3,7 +3,11 @@ import { pages } from "./Dummy";
 import Page from "../Components/Page";
 import logo from "../assets/TukayLogo.png";
 import logo1 from "../assets/TukayT.png";
+import logout from "../assets/Logout.svg";
 import { Outlet } from "react-router-dom";
+import { database } from "../Features/FirebaseConfig";
+import { useNavigate } from "react-router-dom";
+import { signOut } from "firebase/auth";
 
 const SideBar = () => {
   // eslint-disable-next-line no-unused-vars
@@ -18,6 +22,15 @@ const SideBar = () => {
     setSideBarIsOpen(!sideBarIsOpen);
   };
 
+  const history = useNavigate();
+
+  const handleClick = () => {
+    signOut(database).then((val) => {
+      console.log(val, "val");
+      history("/signin");
+    });
+  };
+
   return (
     <div className="flex fixed-top font-spaceGrotesk">
       <div
@@ -25,7 +38,7 @@ const SideBar = () => {
           sideBarIsOpen ? "w-[20%] " : "w-[10%] flex flex-col gap-[40px]"
         }`}
       >
-        <div className="sideBar h-screen">
+        <div className="sideBar h-screen relative">
           <div className="flex items-center">
             <div
               className={`  ${
@@ -71,6 +84,15 @@ const SideBar = () => {
               />
             ))}
           </ul>
+          <div className="absolute bottom-8 flex justify-center w-full">
+            <button
+              className="bg-[red] hover:bg-[#ff000090] p-3 rounded-xl flex place-items-center gap-3"
+              onClick={handleClick}
+            >
+              <img src={logout} className="" alt="" />
+              LogOut
+            </button>
+          </div>
         </div>
       </div>
       <div className={` ${sideBarIsOpen ? "w-[80%]" : "w-[90%]"}`}>

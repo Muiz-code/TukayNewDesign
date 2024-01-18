@@ -20,8 +20,8 @@ export const pages = [
   {
     id: 2,
     icon: Insight,
-    pages: "Insights",
-    pageLink: "/insight",
+    pages: "Scheduler",
+    pageLink: "/scheduler",
     style:
       "hover:text-[#4BF0A5] rounded-lg hover:scale-[1.02] flex items-center",
   },
