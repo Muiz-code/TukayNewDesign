@@ -263,9 +263,9 @@ const Profile = () => {
         >
           <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
             <div className="flex flex-col">
-              <h1>Get Help</h1>
+              <h1>Set Amount</h1>
               <p className="text-[12px] text-[#adababc7]">
-                Support and Feedback
+                Set amount from N2000 upward.
               </p>
             </div>
           </AccordionSummary>
